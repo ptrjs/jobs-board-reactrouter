@@ -9,7 +9,7 @@ export function meta({}: Route.MetaArgs) {
 
 export default function DashboardIndex() {
   return (
-    <div className="bg-gray-800 rounded-lg p-6 shadow-lg">
+    <div className="min-h-screen bg-gray-800 rounded-lg p-6 shadow-lg">
       <h1 className="text-2xl font-bold mb-4">Dashboard</h1>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
@@ -64,4 +64,5 @@ export default function DashboardIndex() {
       </div>
     </div>
   );
+ 
 } 
